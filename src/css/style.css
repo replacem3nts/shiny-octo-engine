@@ -10,9 +10,11 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
   font-weight: 400;
+  background: rgb(238, 254, 255);
 }
 
 header {
+  padding: 12px 24px;
   width: inherit;
   display: flex;
   flex-direction: row;
@@ -20,9 +22,7 @@ header {
 }
 
 main {
-  height: 550px;
-  width: 95vw;
-  margin: 50px 0;
+  margin: 24px 0;
   padding: 25px;
   display: flex;
   flex-direction: column;
@@ -33,21 +33,78 @@ main {
 #viewer {
   height: 85%;
   min-height: 200px;
-  max-height: 100%;
   width: 85%;
   min-width: 250px;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background: lightgrey;
   border: 6px solid black;
   resize: both;
   overflow: auto;
 }
 
+#pallettes {
+  margin-top: 32px;
+  height: 64px;
+  width: 100%;
+  background: lightgray;
+  border: 3px solid black;
+}
+
+#pallettes-row {
+  width: 98%;
+  height: 90%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.single-pallette {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 0 8px;
+  margin: 3px 6px;
+}
+
+.pallette-single-color {
+  height: 12px;
+  width: 12px;
+  margin: 3px;
+}
+
 footer {
   display: flex;
   justify-content: center;
+}
+
+.color-box {
+
+  height: 72px;
+  margin: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#color-one {
+  height: 48px;
+  width: 64px;
+  padding: 12px 10px;
+  text-align: center;
+  background-color: white;
+}
+
+#color-two {
+  height: 48px;
+  width: 64px;
+  padding: 12px 10px;
+  text-align: center;
+  background-color: pink;
+}
+
+#color-three {
+  height: 48px;
+  width: 64px;
+  padding: 12px 10px;
+  text-align: center;
+  background-color: teal;
 }

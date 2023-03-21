@@ -1,1 +1,3 @@
 # shiny-octo-engine
+
+No small amount of inspiration taken from this [super cool Mondrian Art project](https://labs.jensimmons.com/2017/01-011C.html) by Jen Simmons. The color palettes used were curated by a Japanese painter and designer named Sanzo Wada. Mr. Wada work in extensive work color studies were eventually published in a volume entitled [A Dictionary of Color Combinations](https://en.seigensha.com/books/978-4-86152-247-5/)
